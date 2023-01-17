@@ -33,7 +33,22 @@ public class Student {
             case 1:
                 System.out.println("Number is not even");
         }
+    }
+        
+        public void LoopFor(int number){
+
+            for (int i = 0; i < number; i++) {
+                if(i%2 == 0){
+                    continue;
+                }
+                if(i%11 == 0){
+                    break;
+                }
+                    System.out.println(i);
+                }
+
+                
+            }
 
 
     }
-}
