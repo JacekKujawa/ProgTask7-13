@@ -10,7 +10,10 @@ public class Main {
 
 
         Student student1 = new Student();
-        student1.getExamDate();
+        student1.NumberIsEvenSwitch(11);
+        student1.NumberIsEven(12);
+
+
 
     }
 }
